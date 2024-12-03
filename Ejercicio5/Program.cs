@@ -126,6 +126,7 @@ namespace Ejercicio
                     }
                 }
                 Thread.Sleep(rand.Next(90, 200));
+                Thread.Sleep(rand.Next(90, 1000));
                 
             }
         }
